@@ -1,0 +1,90 @@
+body {
+    color: rgb(10, 10, 10);
+    background-color: rgb(248, 255, 221);
+    margin: 20px;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    font-size: 24px;
+    text-align: justify; /* parágrafo justificado */
+}
+
+hr {
+    color: black;
+    margin: 30px 0;
+}
+
+.titulo {
+    color: rgb(255, 0, 0);
+    text-align: center;
+    font-size: 65px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.subtitulo,
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 15px; 
+}
+
+img {
+    border-radius: 12px;
+    margin-top: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+caption {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+th,
+td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    font-size: 40px;
+    background-color: #f0e68c;
+}
+
+td {
+    font-size: 35px;
+}
+
+a {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+        Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: blue;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: darkorange; 
+}
+
+.mensagem {
+    margin-top: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    color: green;
+}
